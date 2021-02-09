@@ -1,5 +1,5 @@
 declare namespace Cypress {
-  interface Chainable<Subject> {
-    sum(a: number, b: number): Chainable<Subject>;
+  interface Chainable {
+    sum(a: number, b: number): Chainable<number>;
   }
 }
